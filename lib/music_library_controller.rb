@@ -1,3 +1,5 @@
 class MusicLibraryController
-  def initialize(path = ./db/mp3s/)
+  
+  extend Concerns::Findable
+  def initialize(path = "./db/mp3s/")
 end
